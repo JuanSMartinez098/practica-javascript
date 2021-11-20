@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas | Curso practico de JavaScript</title>
+</head>
+<body>
+   <header>
+       <h1>
+           Figuras Geometricas
+       </h1>
+       <p>Este es el primer taller practico con javascript</p>
+   </header>
+   <!-- cuadrado -->
+   <section>
+       <h2>Cacula el area y perimetro de un cuadrado</h2>
+       <form>
+           <label for="InputCuadrado">
+                Escribe cuanto mide un lado del cuadrado:
+           </label>
+           <input id="InputCuadrado" type="number" />
+           <button type="button" onclick="CalcularPerimetroCuadrado()">
+                Calcular el perimetro
+           </button>
+           <button type="button" onclick="CalcularAreaCuadrado()">
+                Calcular el area
+           </button>
+       </form>
+   </section>
+   <!-- circulo -->
+   <section>
+        <h2>Cacula el area y perimetro de un circulo</h2>
+        <form>
+            <label for="InputCirculo">
+                Escribe cuanto mide el radio del circulo:
+            </label>
+            <input id="InputCirculo" type="number" />
+            <button type="button" onclick="CalcularPerimetroCirculo()">
+                Calcular el perimetro
+            </button>
+            <button type="button" onclick="CalcularAreaCirculo()">
+                Calcular el area
+            </button>
+        </form>
+    </section>
+    <!-- triangulo -->
+    <section>
+        <h2>Cacula el area y perimetro de un triangulo</h2>
+        <form>
+            <label for="InputTriangulo">
+                Escribe cuanto mide un lado del cuadrado:
+            </label>
+            <input id="Lado1" type="number" placeholder="Lado1" style="width : 80px"/>
+            <input id="Lado2" type="number" placeholder="Lado2" style="width : 80px"/>
+            <input id="Base" type="number" placeholder="Base" style="width : 80px" />
+            <button type="button" onclick="CalcularPerimetroTriangulo()">
+                Calcular el perimetro
+            </button>
+            <button type="button" onclick="CalcularAreaTriangulo()">
+                Calcular el area
+            </button>
+        </form>
+    </section>
+
+
+    <script src="./figuras.js"></script>
+</body>
+</html>
